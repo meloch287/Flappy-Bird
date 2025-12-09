@@ -1,0 +1,143 @@
+{
+  "game": {
+    "title": "Flappy Bird",
+    "version": "1.0",
+    "max_players": 1,
+    "initial_lives": 1,
+    "difficulty_levels": ["easy", "medium", "hard"]
+  },
+  "window": {
+    "width": 400,
+    "height": 600,
+    "fps": 60
+  },
+  "bird": {
+    "x_position": 80,
+    "width": 44,
+    "height": 32,
+    "gravity": 0.35,
+    "jump_strength": -9,
+    "max_fall_speed": 10,
+    "rotation_speed": 3
+  },
+  "pipes": {
+    "width": 52,
+    "gap": 150,
+    "speed": 3,
+    "spawn_interval": 1500,
+    "min_height": 50,
+    "max_height": 300
+  },
+  "ground": {
+    "height": 100,
+    "speed": 3
+  },
+  "audio": {
+    "master_volume": 0.7,
+    "sfx_volume": 0.8,
+    "music_volume": 0.5
+  },
+  "difficulty": {
+    "easy": {
+      "pipe_gap": 180,
+      "pipe_speed": 2,
+      "gravity": 0.4
+    },
+    "medium": {
+      "pipe_gap": 150,
+      "pipe_speed": 3,
+      "gravity": 0.5
+    },
+    "hard": {
+      "pipe_gap": 120,
+      "pipe_speed": 4,
+      "gravity": 0.6
+    }
+  },
+  "themes": {
+    "day": {
+      "sky": [135, 206, 235],
+      "sky_bottom": [176, 224, 230],
+      "ground": [222, 184, 135],
+      "ground_dark": [180, 140, 100],
+      "grass": [124, 252, 0],
+      "pipe": [34, 139, 34],
+      "pipe_highlight": [60, 179, 60],
+      "pipe_border": [0, 100, 0],
+      "bird_body": [255, 220, 0],
+      "bird_wing": [255, 165, 0],
+      "bird_beak": [255, 69, 0],
+      "bird_eye": [255, 255, 255],
+      "text": [255, 255, 255],
+      "text_shadow": [0, 0, 0],
+      "ui_primary": [76, 175, 80],
+      "ui_secondary": [33, 150, 243],
+      "ui_accent": [255, 152, 0],
+      "ui_danger": [244, 67, 54],
+      "cloud": [255, 255, 255]
+    },
+    "night": {
+      "sky": [25, 25, 112],
+      "sky_bottom": [47, 79, 79],
+      "ground": [60, 60, 60],
+      "ground_dark": [40, 40, 40],
+      "grass": [34, 139, 34],
+      "pipe": [75, 0, 130],
+      "pipe_highlight": [138, 43, 226],
+      "pipe_border": [48, 0, 48],
+      "bird_body": [255, 215, 0],
+      "bird_wing": [255, 140, 0],
+      "bird_beak": [255, 99, 71],
+      "bird_eye": [255, 255, 255],
+      "text": [255, 255, 255],
+      "text_shadow": [0, 0, 0],
+      "ui_primary": [156, 39, 176],
+      "ui_secondary": [103, 58, 183],
+      "ui_accent": [255, 193, 7],
+      "ui_danger": [233, 30, 99],
+      "cloud": [200, 200, 220]
+    },
+    "sunset": {
+      "sky": [255, 127, 80],
+      "sky_bottom": [255, 182, 193],
+      "ground": [139, 90, 43],
+      "ground_dark": [101, 67, 33],
+      "grass": [154, 205, 50],
+      "pipe": [178, 34, 34],
+      "pipe_highlight": [220, 60, 60],
+      "pipe_border": [128, 0, 0],
+      "bird_body": [255, 255, 100],
+      "bird_wing": [255, 200, 0],
+      "bird_beak": [255, 100, 0],
+      "bird_eye": [255, 255, 255],
+      "text": [255, 255, 255],
+      "text_shadow": [80, 40, 40],
+      "ui_primary": [255, 87, 34],
+      "ui_secondary": [255, 138, 101],
+      "ui_accent": [255, 213, 79],
+      "ui_danger": [211, 47, 47],
+      "cloud": [255, 228, 225]
+    },
+    "retro": {
+      "sky": [0, 100, 0],
+      "sky_bottom": [0, 60, 0],
+      "ground": [0, 50, 0],
+      "ground_dark": [0, 30, 0],
+      "grass": [0, 255, 0],
+      "pipe": [0, 200, 0],
+      "pipe_highlight": [0, 255, 0],
+      "pipe_border": [0, 100, 0],
+      "bird_body": [0, 255, 0],
+      "bird_wing": [0, 200, 0],
+      "bird_beak": [0, 255, 0],
+      "bird_eye": [0, 255, 0],
+      "text": [0, 255, 0],
+      "text_shadow": [0, 100, 0],
+      "ui_primary": [0, 200, 0],
+      "ui_secondary": [0, 150, 0],
+      "ui_accent": [0, 255, 0],
+      "ui_danger": [255, 0, 0],
+      "cloud": [0, 180, 0]
+    }
+  }
+}
